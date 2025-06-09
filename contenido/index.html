@@ -3,21 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mi Página Personal  Diego Casas</title>
+  <title>Mi Página Personal Diego Casas</title>
   <link rel="stylesheet" href="../estilos/estilos.css" />
 </head>
 <body>
-  <!-- ENCABEZADO PRINCIPAL -->
   <header>
     <div class="contenedor-header">
-      <!-- Logo o imagen de perfil -->
-      <img src="../imagenes/oto-perfil.jpg" alt="Foto de perfil de Diego Casas" width="120" height="120" />
+      <img src="../imagenes/oto-perfil.jpg" alt="Foto de perfil de Diego Casas" class="imagen-perfil-main" />
       <div class="titulo-header">
         <h1>Diego Casas</h1>
         <p class="subtitulo">Desarrollador de Software &amp; Apasionado por la Tecnología</p>
       </div>
     </div>
-    <!-- Navegación -->
     <nav class="navbar">
       <ul>
         <li><a href="#perfil">Perfil</a></li>
@@ -27,9 +24,7 @@
     </nav>
   </header>
 
-  <!-- CONTENIDO PRINCIPAL -->
   <main class="contenedor-principal">
-    <!-- SECCIÓN: PERFIL PROFESIONAL -->
     <section id="perfil" class="seccion">
       <h2>Perfil Profesional</h2>
       <p>
@@ -38,9 +33,12 @@
         basados en microservicios y MVC. Me especializo en JavaScript (React, Angular) y tengo sólidos conocimientos
         en metodologías ágiles (Scrum, Kanban).
       </p>
+      <p>
+        Conoce más sobre mi trabajo en mi portafolio personal:
+        <a href="https://github.com/dev-diegocasas" target="_blank" rel="noopener">Visita mi GitHub</a>
+      </p>
     </section>
 
-    <!-- INTERESES TECNOLÓGICOS -->
     <section id="intereses" class="seccion">
       <h2>Intereses Tecnológicos</h2>
       <ul class="lista-intereses">
@@ -56,22 +54,27 @@
       </figure>
     </section>
 
-    <!-- CONTACTO -->
     <section id="contacto" class="seccion">
       <h2>Contacto</h2>
-      <p>Si deseas ponerte en contacto conmigo, puedes usar:</p>
       <ul class="lista-contacto">
-        <li>Correo electrónico: <a href="mailto:juan.perez@ejemplo.com">alejandrocasas102@gmail.com</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/juanperez" target="_blank" rel="noopener">www.linkedin.com/in/dev-diegocasas</a></li>
-        <li>GitHub: <a href="https://github.com/juanperez" target="_blank" rel="noopener">https://github.com/dev-diegocasas</a></li>
+        <li>Correo electrónico: <a href="mailto:alejandrocasas102@gmail.com">alejandrocasas102@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/dev-diegocasas" target="_blank" rel="noopener">linkedin.com/in/dev-diegocasas</a></li>
+        <li>GitHub: <a href="https://github.com/dev-diegocasas" target="_blank" rel="noopener">github.com/dev-diegocasas</a></li>
       </ul>
     </section>
   </main>
 
-  <!-- PIE DE PÁGINA -->
   <footer>
-    <p>&copy; 2025 Diego Casas. Todos los derechos reservados.</p>
-    <p><small>Documento validado en el validador <a href="https://validator.w3.org/" target="_blank" rel="noopener">W3C</a>.</small></p>
+    <div class="contenedor-footer">
+      <p>&copy; 2025 Diego Casas. Todos los derechos reservados.</p>
+      <ul class="social-footer">
+        <li><a href="https://www.linkedin.com/in/dev-diegocasas" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/dev-diegocasas" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="mailto:alejandrocasas102@gmail.com">Email</a></li>
+      </ul>
+    </div>
   </footer>
+
+
 </body>
 </html>
